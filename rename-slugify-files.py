@@ -5,7 +5,7 @@ import re
 import os
 import shutil
 
-FOLDER_PATH = "/home/sergio/Dokumentuak/util-scripts/images"
+FOLDER_PATH = "/path/to/the/folder"
 os.chdir(FOLDER_PATH)
 
 def slug_file_name(file_name):
